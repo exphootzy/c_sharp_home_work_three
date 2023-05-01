@@ -36,7 +36,3 @@ if (result == 0)
         return;
     }
 Console.WriteLine($"Нет, число: {num} - это не полиндром ");
-
-
-
-
