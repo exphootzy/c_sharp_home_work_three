@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\enjoy\\OneDrive\\Рабочий стол\\geek_brain\\Block_3_c#\\home_work_two\\tasks\\task_one\\task_one.csproj",
+      "projectUniqueName": "C:\\Users\\enjoy\\OneDrive\\Рабочий стол\\geek_brain\\Block_3_c#\\home_work_three\\tasks\\task_one\\task_one.csproj",
       "projectName": "task_one",
-      "projectPath": "C:\\Users\\enjoy\\OneDrive\\Рабочий стол\\geek_brain\\Block_3_c#\\home_work_two\\tasks\\task_one\\task_one.csproj",
+      "projectPath": "C:\\Users\\enjoy\\OneDrive\\Рабочий стол\\geek_brain\\Block_3_c#\\home_work_three\\tasks\\task_one\\task_one.csproj",
       "packagesPath": "C:\\Users\\enjoy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\enjoy\\OneDrive\\Рабочий стол\\geek_brain\\Block_3_c#\\home_work_two\\tasks\\task_one\\obj\\",
+      "outputPath": "C:\\Users\\enjoy\\OneDrive\\Рабочий стол\\geek_brain\\Block_3_c#\\home_work_three\\tasks\\task_one\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\enjoy\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -8,22 +8,35 @@
 
 // 23432 -> да
 
-Console.WriteLine("Введите число: ");
-int num = Convert.ToInt32(Console.ReadLine());
-int temp = 0;
-// int count = 0;
-int init = num;
-
-while (init > 0)
+int Begin(string messege)
 {
-    temp = temp * 10 + init % 10;
-    init = init / 10;
+    Console.WriteLine(messege);
+    int result = Convert.ToInt32(Console.ReadLine());
+    return result;
 }
 
-if (num - temp == 0)
-    Console.WriteLine("Да, это полиндром");
-    else
+int numberFlip(int number)
+{
+    int temp = 0;
+    while (number > 0)
     {
-    Console.WriteLine("Нет, это не полиндром");
+        temp = temp * 10 + number % 10;
+        number = number / 10;
     }
+    return temp;
+}
+
+int num = Begin("Введите число: ");
+int init = numberFlip(num);
+int result = num - init;
+
+if (result == 0)
+    {
+        Console.WriteLine($"Да, число: {num} - это полиндром");
+        return;
+    }
+Console.WriteLine($"Нет, число: {num} - это не полиндром ");
+
+
+
 
