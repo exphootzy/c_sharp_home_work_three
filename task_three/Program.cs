@@ -12,7 +12,7 @@ int Begin(string messege)
     return result;
 }
 
-void unswer(int paramOne, int paramTwo)
+void answer(int paramOne, int paramTwo)
 {
     double result = 0;
     Console.Write($"Кубы чисел от 1 до {paramOne}: ");
@@ -25,4 +25,4 @@ void unswer(int paramOne, int paramTwo)
 }
 int num_max = Begin("Введите число: ");
 int num_min = 1;
-unswer(num_max, num_min);
+answer(num_max, num_min);

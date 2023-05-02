@@ -26,7 +26,7 @@ int numberFlip(int number)
     return temp;
 }
 
-void unswer(int paramOne, int paramTwo)
+void answer(int paramOne, int paramTwo)
 {
     int result = paramOne - paramTwo;
 
@@ -40,4 +40,4 @@ void unswer(int paramOne, int paramTwo)
 
 int num = Begin("Введите число: ");
 int init = numberFlip(num);
-unswer(num, init);
+answer(num, init);

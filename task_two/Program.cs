@@ -13,7 +13,7 @@ int Begin(string messege)
     return result;
 }
 
-void unswer(int x1, int y1, int z1, int x2, int y2, int z2)
+void answer(int x1, int y1, int z1, int x2, int y2, int z2)
 {
     double result = Math.Sqrt(Math.Pow(x2 - x1, 2) + (Math.Pow(y2 - y1, 2)) + (Math.Pow(z2 - z1, 2)));
     Console.WriteLine($"Расстояние между двумя точками равно: {Math.Round(result, 2)}");
@@ -25,4 +25,4 @@ int z1 = Begin("Введите третью координату для перв
 int x2 = Begin("Введите первую координату для второй точки: ");
 int y2 = Begin("Введите вторую координату для второй точки: ");
 int z2 = Begin("Введите третью координату для второй точки: ");
-unswer(x1, y1, z1, x2, y2, z2);
+answer(x1, y1, z1, x2, y2, z2);
