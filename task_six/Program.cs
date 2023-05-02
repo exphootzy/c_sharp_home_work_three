@@ -15,6 +15,19 @@ while (i <= 100)
         return num;
     }
 
+    void answerFinal(bool x, bool y)
+    {
+        Console.WriteLine($"Первый итог: {x} Второй итог: {y}");
+        if (x == y)
+        {
+            Console.WriteLine("Теорема верна");
+
+        }
+
+        else
+        Console.WriteLine("Теорема Не верна");
+    }
+
     Random random = new Random();
     int a = random.Next(5, 26);
     int[] mass = new int[a];
@@ -45,19 +58,8 @@ while (i <= 100)
             answerTwo = !answerTwo | !Convretion(mass[x]);
         }
     }
-
-    {
-        Console.WriteLine($"Первый итог: {answerOne} Второй итог: {answerTwo}");
-        if (answerOne == answerTwo)
-        {
-            Console.WriteLine("Теорема работает");
-
-        }
-
-        else
-        Console.WriteLine("Теорема Не работает");
-    }
-    i++;
+    answerFinal(answerOne, answerTwo);
+i++;
 }
 watch.Stop();
 
